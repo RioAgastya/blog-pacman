@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    line-height: normal;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: #fff9fb;
+}
+
+nav {
+    padding: 1rem 5rem;
+}
+/* Navbar Start */
+.nav-logo img{
+    width: 6rem;
+    margin-left: 20px;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item{
+    display: flex;
+    gap: 2rem;
+    font-weight: 600;
+}
+
+.nav-item a{
+    font-size: 20px;
+}
+
+.nav-item div,
+.nav-item div a{
+    color: black;
+    transition: 0.3s;
+}
+
+.nav-item div:hover,
+.nav-item div a:hover{
+    color: rgb(126, 126, 255);
+}
+/* Navbar End */
+
+.contact{
+    height: 100vh;
+}
+
+/* Form Start */
+
+
+/* Form End */

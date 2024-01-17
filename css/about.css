@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    line-height: normal;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: #fff9fb;
+}
+
+nav {
+    padding: 1rem 5rem;
+}
+/* Navbar Start */
+.nav-logo img{
+    width: 6rem;
+    margin-left: 20px;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item{
+    display: flex;
+    gap: 2rem;
+    font-weight: 600;
+}
+
+.nav-item a{
+    font-size: 20px;
+}
+
+.nav-item div,
+.nav-item div a{
+    color: black;
+    transition: 0.3s;
+}
+
+.nav-item div:hover,
+.nav-item div a:hover{
+    color: rgb(126, 126, 255);
+}
+/* Navbar End */
+
+.about{
+    height: 100vh;
+}
+
+/* Content Start */
+.hero{
+    display: flex;
+    padding: 4rem 8rem;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 50vh;
+}
+
+.about-img img{
+    width: 25rem
+}
+
+.about-desc{
+    padding-left: 3rem;
+}
+
+.desc-me{
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 1rem rgba(92, 92, 92, 0.5);
+}
+
+.about-desc h3{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+/* Content End */
+
+/* Project Start */
+.project{
+    z-index: 99;
+    position: relative;
+    padding: 4rem 8rem;
+    height: 70vh;
+}
+
+.project-title{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.card-project{
+    display: flex;
+    z-index: 99;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1rem;
+    box-shadow: 0px 0px 1rem rgba(92, 92, 92, 0.5);
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.card-project h3{
+    margin: 1rem 0;
+}
+
+.card-project img{
+    width: 20rem;
+    height: 17rem;
+}
+
+.card-project p{
+    width: 14rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Project End */
+
+/* Offer Start */
+
+.offer-title{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.offer{
+    display: flex;
+    padding: 4rem 8rem;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 50vh;
+}
+/* Offer End */
