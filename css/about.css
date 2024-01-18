@@ -90,7 +90,7 @@ nav {
     height: 70vh;
 }
 
-.project-title{
+.project h3{
     display: flex;
     justify-content: center;
     font-size: 2rem;
