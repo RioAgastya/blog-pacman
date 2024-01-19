@@ -13,6 +13,6 @@ Seperti penjelasan diatas, web ini memiliki 4 page, antaranya:
 
 # Code and Output
 1. Home
-  ![Alt text](image-1.png)
+  ![Home Code](image-1.png)
 3. adaw
 4. 
