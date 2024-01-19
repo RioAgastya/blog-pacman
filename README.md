@@ -11,8 +11,44 @@ Seperti penjelasan diatas, web ini memiliki 4 page, antaranya:
 * Blog, berisikan rekomendasi artikel yang menjadi favorit Dian.
 * Contact, berisikan form untuk menghubungi Dian.
 
-# Code and Output
+# Output
 1. Home
-*![Home Code](image-1.png)
-3. adaw
-4. 
+   
+   ![HOME](https://github.com/RioAgastya/blog-pacman/assets/93854348/e9f9e8a5-906a-48a8-9602-0542fb71cf95)
+   
+2. About
+   
+   - About Me (Experience)
+     
+   ![ABOUT 1](https://github.com/RioAgastya/blog-pacman/assets/93854348/54837b30-2428-468f-994a-baea1758855c)
+
+   - My Project
+     
+   ![ABOUT 2](https://github.com/RioAgastya/blog-pacman/assets/93854348/8ace0892-4f1f-42c4-89c5-114f684e9914)
+
+   - Offers
+     
+   ![ABOUT 3](https://github.com/RioAgastya/blog-pacman/assets/93854348/25bc8c0e-5649-47bb-aeef-3012d394cfb8)
+
+3. Blog
+   
+   - Recomendation Article (1)
+     
+     ![BLOG 1](https://github.com/RioAgastya/blog-pacman/assets/93854348/60a0c48a-a07e-4347-8e01-6dc6221af355)
+
+   - Recomendation Article (2)
+     
+     ![BLOG 2](https://github.com/RioAgastya/blog-pacman/assets/93854348/aca7045e-2b90-4577-b2fa-7ba0720f6665)
+
+4. Contact
+
+   - Form Contact
+     
+     ![CONTACT](https://github.com/RioAgastya/blog-pacman/assets/93854348/cfd20ecd-6d7f-4351-8352-4bb89517145e)
+
+# Conclusion
+Kesimpulan project ini adalah pembuatan website sederhana menggunakan HTML & CSS sudah rampung. Dengan wireframe yang diberikan website ini terdiri dari empat halaman utama: Home, About, Blog, dan Contact. Halaman Home berfungsi sebagai perkenalan singkat tentang website, sedangkan halaman About memberikan informasi mengenai Dian, termasuk pengalaman kerja, proyek yang pernah diselesaikan, dan jasa pembuatan aplikasi serta website. Halaman Blog berisi rekomendasi artikel favorit dari Dian, sementara halaman Contact menyediakan formulir untuk menghubungi Dian. 
+
+     
+     
+
