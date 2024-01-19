@@ -58,7 +58,7 @@ nav {
     padding: 4rem 8rem;
     justify-content: center;
     margin-top: 2rem;
-    height: 50vh;
+    height: 60vh;
 }
 
 .about-img img{
@@ -87,7 +87,7 @@ nav {
     z-index: 99;
     position: relative;
     padding: 4rem 8rem;
-    height: 70vh;
+    height: 60vh;
 }
 
 .project h3{
@@ -98,7 +98,7 @@ nav {
 
 .card-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 4rem;
 }
 
@@ -132,17 +132,88 @@ nav {
 
 /* Offer Start */
 
-.offer-title{
+.offer{
+    display: flex;
+    padding: 4rem 8rem;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.offer h3{
     display: flex;
     justify-content: center;
     font-size: 2rem;
 }
 
-.offer{
+.card-offer{
     display: flex;
-    padding: 4rem 8rem;
-    justify-content: center;
+    z-index: 99;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1rem;
+    box-shadow: 0px 0px 1rem rgba(92, 92, 92, 0.5);
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.card-offer h3{
+    margin: 1rem 0;
+}
+
+.card-offer img{
+    width: 20rem;
+    height: 17rem;
+}
+
+.card-offer p{
+    width: 14rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.button-parent {
     margin-top: 2rem;
-    height: 50vh;
+    display: flex;
+    gap: 1rem;
+}
+
+.button-order{
+    background-color: bisque;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+#buttonContainer {
+    background: linear-gradient(-74.09deg, #df5d8c, #ffcade);
 }
 /* Offer End */
+
+/* Footer Start */
+.footer{
+    display: flex;
+    padding: 1rem 8rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+.footer-text{
+    display: flex;
+    gap: 2rem;
+    font-weight: 200;
+}
+
+.footer-text div,
+.foote-text div a{
+    color: black;
+    transition: 0.3s;
+}
+
+.footer-text div:hover,
+.footer-text div a:hover{
+    color: rgb(126, 126, 255);
+}
+/* Footer End */
